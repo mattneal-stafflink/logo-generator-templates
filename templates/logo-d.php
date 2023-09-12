@@ -69,15 +69,15 @@ $css = '
 		margin-top: 180px;
 		margin-left: 40px;
 	}
-	
-	@font-face {
-		font-family: Metropolis regular;
-		src: url("https://ap-south-1.linodeobjects.com/image-property/public/Image%20DevOps/Logo%20Fonts/Metropolis%20Font/Metropolis-Regular.otf");
-	}
-	
-	@font-face {
-		font-family: Metropolis regular;
-		src: url("https://ap-south-1.linodeobjects.com/image-property/public/Image%20DevOps/Logo%20Fonts/Metropolis%20Font/Metropolis-Regular.otf");
-	}
 ';
+// Added the fonts to the $css variable separately for readability.
+$css .= '@font-face {
+		font-family: Metropolis regular;
+		src: url("https://ap-south-1.linodeobjects.com/image-property/public/Image%20DevOps/Logo%20Fonts/Metropolis%20Font/Metropolis-Regular.otf");
+	}
+	
+	@font-face {
+		font-family: Metropolis regular;
+		src: url("https://ap-south-1.linodeobjects.com/image-property/public/Image%20DevOps/Logo%20Fonts/Metropolis%20Font/Metropolis-Regular.otf");
+	}';
 ?>
